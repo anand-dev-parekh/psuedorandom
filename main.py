@@ -30,7 +30,6 @@ def generate_bit_string():
     # Calculate N and M
     N = p * q
     M = (p - 1) * (q - 1)
-    print(M)
 
     # Generate random e such that gcd(e, M) = 1
     e = random.randint(3, M)
